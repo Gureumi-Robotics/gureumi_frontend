@@ -1,5 +1,5 @@
 import styled from '@emotion/styled';
-import { AppProviders } from './providers/AppProviders';
+import { AppProviders } from '@/providers/AppProviders';
 
 export function App() {
   return (

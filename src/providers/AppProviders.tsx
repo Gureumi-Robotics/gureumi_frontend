@@ -1,7 +1,7 @@
 import { QueryClientProvider } from '@tanstack/react-query';
 import type { ReactNode } from 'react';
-import { queryClient } from '@/shared/lib/queryClient';
-import { GlobalStyle } from '@/shared/styles/GlobalStyle';
+import { queryClient } from './queryClient';
+import { GlobalStyle } from '@/styles/GlobalStyle';
 
 interface Props {
   children: ReactNode;
