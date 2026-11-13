@@ -1,10 +1,12 @@
 import styled from '@emotion/styled';
 import { AppProviders } from '@/providers/AppProviders';
+import { TodoList } from '@/components/TodoList';
 
 export function App() {
   return (
     <AppProviders>
       <Title>Gureumi</Title>
+      <TodoList />
     </AppProviders>
   );
 }
