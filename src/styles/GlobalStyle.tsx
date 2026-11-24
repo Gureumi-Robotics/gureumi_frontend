@@ -15,6 +15,10 @@ const globalStyles = css`
 
   body {
     margin: 0;
+    background: #f7f8fa;
+    color: #242b34;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
+      'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;
     -webkit-font-smoothing: antialiased;
   }
 
