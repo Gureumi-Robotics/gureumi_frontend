@@ -5,22 +5,23 @@ React + Vite + TypeScript / Emotion / TanStack Query + Zustand
 ## 시작하기
 
 ```bash
-npm install
+pnpm install
 cp .env.example .env
-npm run dev
+pnpm run dev
 ```
 
-| 스크립트 | 설명 |
-| --- | --- |
-| `npm run dev` | 개발 서버 |
-| `npm run build` | 타입 체크 + 프로덕션 빌드 |
-| `npm run typecheck` | 타입 체크만 |
-| `npm run lint` | ESLint |
+| 스크립트             | 설명                      |
+| -------------------- | ------------------------- |
+| `pnpm run dev`       | 개발 서버                 |
+| `pnpm run build`     | 타입 체크 + 프로덕션 빌드 |
+| `pnpm run typecheck` | 타입 체크만               |
+| `pnpm run lint`      | ESLint                    |
 
 ## 폴더 구조
 
 ```
 src/
+├─ pages/        # 라우터에 연결되는 페이지, 도메인 컴포넌트 조합
 ├─ components/   # 전체 프로젝트에서 쓰는 공통 컴포넌트
 ├─ hooks/        # 전체 프로젝트에서 쓰는 공통 Hook
 ├─ providers/    # QueryClientProvider 등 앱 전역 Provider
