@@ -1,1 +1,1 @@
-export const ROBOT_SOCKET_BASE_URL = 'ws://43.201.10.151';
+export const ROBOT_SOCKET_BASE_URL = 'wss://api.gureumi.kr';
